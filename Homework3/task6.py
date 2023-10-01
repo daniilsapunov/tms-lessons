@@ -16,4 +16,4 @@ month = input()
 day = int(input())
 
 
-print(month in dict and day == dict.get(month))
+print(month in dict and 0 < day <= dict.get(month))
